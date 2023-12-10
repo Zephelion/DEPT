@@ -54,4 +54,23 @@
       }
     }
   }
+
+  @media (max-width: 978px) {
+    .activity-container {
+      flex-direction: column;
+
+      .img-container {
+        width: 100%;
+        height: 13rem;
+      }
+
+      .information {
+        width: 100%;
+
+        h3 {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
 </style>
