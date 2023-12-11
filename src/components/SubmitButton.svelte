@@ -1,5 +1,4 @@
 <script lang="ts">
-  console.log("Hello world!");
 </script>
 
 <button class="submit" type="submit">Submit</button>

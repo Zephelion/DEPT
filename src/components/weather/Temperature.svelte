@@ -6,7 +6,7 @@
   export let weatherInfo: WeatherInfo[] | undefined = undefined;
 
   const symbol = {
-    celsius: "°C",
+    celcius: "°C",
     fahrenheit: "°F",
   };
 
@@ -15,7 +15,7 @@
     metric: string | undefined
   ) => {
     if (metric === "CELCIUS") {
-      return `${temperature}${symbol.celsius}`;
+      return `${temperature}${symbol.celcius}`;
     } else if (metric === "FAHRENHEIT") {
       return `${temperature}${symbol.fahrenheit}`;
     } else {

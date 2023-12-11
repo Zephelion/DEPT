@@ -1,5 +1,4 @@
-import type { Temperature } from "./weather.types";
-import type { WeatherInfo } from "./weather.types";
+import type { Temperature, WeatherInfo } from "./weather.types";
 
 export type Weather = {
   temperature: Temperature;
